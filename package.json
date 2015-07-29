@@ -1,6 +1,6 @@
 {
   "name": "corfudb-node-sequencer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A streaming sequencer for CorfuDB built on Node.js.",
   "main": "build/server.js",
   "scripts": {
@@ -28,7 +28,8 @@
     "bunyan-debug-stream": "^1.0.5",
     "docopt": "^0.4.1",
     "node-int64": "^0.4.0",
-    "thrift": "^0.9.2"
+    "thrift": "^0.9.2",
+    "measured": "^1.0.0"
   },
   "devDependencies": {
     "gulp": "^3.8.10",
@@ -36,7 +37,6 @@
     "gulp-tsd": "0.0.4",
     "gulp-typescript": "^2.4.2",
     "gulp-typescript-thrift": "^1.0.1",
-    "measured": "^1.0.0"
   }
 }
 
