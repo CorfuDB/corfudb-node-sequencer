@@ -12,6 +12,10 @@
     "corfu",
     "sequencer"
   ],
+  "repository": {
+      "url" : "https://github.com/CorfuDB/corfudb-node-sequencer",
+      "type": "git"
+  },
   "bin": {
     "corfudb-node-sequencer": "build/server.js",
     "corfudb-node-sequencer-benchmark": "build/benchmark.js"
@@ -34,4 +38,5 @@
     "gulp-typescript-thrift": "^1.0.1",
     "measured": "^1.0.0"
   }
+}
 
