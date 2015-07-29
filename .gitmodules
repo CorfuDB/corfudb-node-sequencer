@@ -1,0 +1,3 @@
+[submodule "CorfuDB"]
+	path = CorfuDB
+	url = https://github.com/CorfuDB/CorfuDB
