@@ -1,6 +1,6 @@
 {
   "name": "corfudb-node-sequencer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A streaming sequencer for CorfuDB built on Node.js.",
   "main": "build/server.js",
   "scripts": {

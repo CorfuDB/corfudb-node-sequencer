@@ -89,7 +89,7 @@ function runBenchmark(client, connection, timer) {
 function initialize(opts : any) : Promise<any>
 {
     log = bunyan.createLogger({
-        name: 'nimbus-tool',
+        name: 'corfudb-node-sequencer-benchmark',
         streams: [{
              level: opts['-v'][2] ? 'trace' :
                     opts['-v'][1] ? 'debug' : 'info',

@@ -68,7 +68,7 @@ function serve(opts) {
 }
 function initialize(opts) {
     log = bunyan.createLogger({
-        name: 'nimbus-tool',
+        name: 'corfudb-node-sequencer',
         streams: [{
                 level: opts['-v'][2] ? 'trace' :
                     opts['-v'][1] ? 'debug' : 'info',
